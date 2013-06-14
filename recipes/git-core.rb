@@ -1,4 +1,4 @@
-apt_repository "php-mez" do
+apt_repository "git-core" do
   uri "http://ppa.launchpad.net/git-core/ppa/ubuntu"
   distribution node['lsb']['codename']
   components ["main"]
