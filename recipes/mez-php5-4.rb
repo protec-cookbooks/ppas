@@ -1,5 +1,5 @@
 apt_repository "php-mez" do
-  uri "http://ppa.launchpad.net/mez/php5-4/ubuntu"
+  uri "http://ppa.launchpad.net/mez/php5.4/ubuntu"
   distribution node['lsb']['codename']
   components ["main"]
   keyserver "keyserver.ubuntu.com"
