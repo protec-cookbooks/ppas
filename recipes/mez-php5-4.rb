@@ -6,3 +6,7 @@ apt_repository "php5.4-mez" do
   key "B7AC0613"
   action :add
 end
+
+apt_repository "php-mez" do
+    action :remove
+end

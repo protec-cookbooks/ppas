@@ -6,3 +6,12 @@ apt_repository "php5.4-ondrej" do
   key "E5267A6C"
   action :add
 end
+
+
+apt_repository "php-ondrej" do
+  action :remove
+end
+
+apt_repository "systemd-ondrej" do
+  action :remove
+end
