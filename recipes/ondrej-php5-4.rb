@@ -1,4 +1,4 @@
-apt_repository "php-ondrej" do
+apt_repository "php5.4-ondrej" do
   uri "http://ppa.launchpad.net/ondrej/php5-oldstable/ubuntu"
   distribution node['lsb']['codename']
   components ["main"]

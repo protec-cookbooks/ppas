@@ -1,4 +1,4 @@
-apt_repository "php-mez" do
+apt_repository "php5.4-mez" do
   uri "http://ppa.launchpad.net/mez/php5.4/ubuntu"
   distribution node['lsb']['codename']
   components ["main"]
