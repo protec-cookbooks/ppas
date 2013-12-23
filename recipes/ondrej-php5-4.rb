@@ -11,7 +11,3 @@ end
 apt_repository "php-ondrej" do
   action :remove
 end
-
-apt_repository "systemd-ondrej" do
-  action :remove
-end
