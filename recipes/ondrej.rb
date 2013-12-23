@@ -6,12 +6,3 @@ apt_repository "php-ondrej" do
   key "E5267A6C"
   action :add
 end
-
-apt_repository "systemd-ondrej" do
-  uri "http://ppa.launchpad.net/ondrej/systemd/ubuntu"
-  distribution node['lsb']['codename']
-  components ["main"]
-  keyserver "keyserver.ubuntu.com"
-  key "E5267A6C"
-  action :add
-end
